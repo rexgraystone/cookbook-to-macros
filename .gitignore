@@ -1,0 +1,6 @@
+# Never commit cookbook content to this plugin repo
+*.pdf
+recipes/
+__pycache__/
+*.pyc
+.DS_Store

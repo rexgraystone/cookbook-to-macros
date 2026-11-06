@@ -1,0 +1,20 @@
+{
+  "name": "cookbook-to-macros",
+  "description": "Cookbook to Macros: turn any cookbook into MyFitnessPal recipes, check the book's macros, and log meals.",
+  "owner": {
+    "name": "rexgraystone"
+  },
+  "plugins": [
+    {
+      "name": "cookbook-to-macros",
+      "source": "./",
+      "description": "Turn cookbook PDFs or photos into MyFitnessPal recipes through the Android app in an emulator, compare macros with the book's, and log meals.",
+      "category": "productivity",
+      "tags": [
+        "myfitnesspal",
+        "nutrition",
+        "recipes"
+      ]
+    }
+  ]
+}

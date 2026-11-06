@@ -1,0 +1,23 @@
+{
+  "name": "cookbook-to-macros",
+  "displayName": "Cookbook to Macros",
+  "version": "0.1.0",
+  "description": "Turn any cookbook into MyFitnessPal recipes through the Android app in an emulator, check the book's macros, and log meals.",
+  "author": {
+    "name": "rexgraystone",
+    "url": "https://github.com/rexgraystone"
+  },
+  "license": "MIT",
+  "keywords": [
+    "myfitnesspal",
+    "nutrition",
+    "recipes",
+    "cookbook",
+    "macros",
+    "android",
+    "adb",
+    "emulator"
+  ],
+  "homepage": "https://github.com/rexgraystone/cookbook-to-macros",
+  "repository": "https://github.com/rexgraystone/cookbook-to-macros"
+}
