@@ -54,4 +54,6 @@ Otherwise search: `tapx searchEditText`, `typ "<food>"`, `key 66`, wait ~3 s, `r
 ## 6. Verify and report
 Back on the diary, `dump` (scroll with `swipe_up`) and confirm each entry sits under the right meal with the expected calories. Reply with one line per item: name, amount, meal, calories, and any guess you made. If something went in wrong, edit or delete that entry rather than adding a duplicate.
 
+**Then sync**, or the entries may not reach the user's phone for hours: tap More (`tapx buttonMore`), `swipe_up` twice, `dump`, `tapx "^Sync"`, wait ~15 s, `dump` and check the subtext under Sync reads "Last: a few seconds ago". Do the same at the end of a recipe-entry batch.
+
 Subagents can look up nutrition or read recipe files in parallel, but do the UI work yourself (or hand all of it to one subagent).
